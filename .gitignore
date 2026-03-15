@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# PyTest cache
+.pytest_cache/
+
+# FastAPI / Uvicorn
+*.db
+instance/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# GitHub Actions artifacts
+*.coverage
+coverage.xml
+
+# Build artifacts
+build/
+dist/
